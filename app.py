@@ -1,4 +1,4 @@
-numero = input("Pasa el numero")
+numero = int (input("Pasa el numero: "))
 
 cont = 0
 for i in range(1, numero + 1):
