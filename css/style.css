@@ -1,0 +1,73 @@
+body{
+    background: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section article {
+    background: white;
+}
+
+section article .contenido{
+    display: flex;
+    border-bottom: 3px solid #22bce0;
+}
+
+section article .contenido .caratula img {
+    width: 175px;
+}
+
+section article .contenido .post {
+    margin-left: 20px;
+    color: #7a7a7a;
+}
+
+section article .contenido .post .titulo_autor h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-style: italic;
+    color: black;
+}
+
+section article .contenido .post .titulo_autor p {
+    margin: 10px 0px 0px 0px;
+}
+
+section article .contenido .post .titulo_autor p span {
+    text-decoration: underline;
+    color: crimson;
+}
+
+section article .contenido .post .tag_tiempo {
+    overflow: hidden;
+    margin-top: 20px;
+}
+section article .contenido .post .tag_tiempo .etiqueta {
+    float: left;
+    color: white;
+}
+
+section article .contenido .post .tag_tiempo .etiqueta p {
+    background: #22bce0;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+
+}
+
+section article .contenido .post .tag_tiempo .tiempo {
+    float: right;
+}
+
+section article .contenido .post .tag_tiempo .tiempo p span{
+    font-weight: bold;
+}
+
+section article .estadisticas .contador{
+    float: left;
+}
+
+section article .estadisticas .icono{
+    float: right;
+}
+
+section article .estadisticas .contador .f_arriba::before{
+    
+}
