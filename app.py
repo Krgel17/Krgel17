@@ -9,3 +9,5 @@ if cont ==2:
     print("El numero ",numero," es primo")
 else:
     print("El numero ",numero," no es primo")
+    
+    #Comentarios
